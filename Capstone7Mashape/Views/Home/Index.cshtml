@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Type a Date...Get a Fact!</h2>
+<h2>Try Below!</h2>
+
+<br />
+<br />
+
+<form action="Home/GetAPI">
+    <div class="form-group">
+        <label>Day</label>
+        <input type="text" class="form-control" name="day" aria-describedby="emailHelp" placeholder="Please Enter the Day">
+    </div>
+    <div class="form-group">
+        <label>Month</label>
+        <input type="text" class="form-control" name="month"  placeholder="Please Enter the Month">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
